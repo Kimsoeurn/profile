@@ -1,229 +1,260 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Cover Template for Bootstrap</title>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <style>
-    	
-    	/*
- * Globals
- */
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Curriculum Vitae</title>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+    }
 
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
+    .header {
+      display: flex;
+      margin-bottom: 20px;
+    }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
-}
+    .main-title {
+      font-size: 26px;
+      text-transform: uppercase;
+      border-bottom: 3px solid #17a2b8;
+      margin: 0 auto;
+    }
 
+    .name {
+      font-size: 20px;
+    }
 
-/*
- * Base structure
- */
+    table th {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
 
-html,
-body {
-  height: 100%;
-  background-color: #333;
-      background-image: url("images/web_bg.jpg");
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-body {
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-}
+    table td {
+      padding: 5px !important;
+    }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
+    table th h3 {
+      font-size: 16px;
+      text-transform: uppercase;
+      background-color: #17a2b8;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 5px;
+    }
 
-/* Padding for spacing */
-.inner {
-  padding: 2rem;
-}
+    .info {
+      margin-bottom: 10px;
+    }
 
+    .title {
+      padding-left: 50px !important;
+      width: 30%;
+    }
 
-/*
- * Header
- */
+    .sign {
+      width: 10%;
+    }
+  </style>
+</head>
 
-.masthead {
-  margin-bottom: 2rem;
-}
-
-.masthead-brand {
-  margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255,255,255,.5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: rgba(255,255,255,.5);
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 40em) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 62em) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 42rem;
-  }
-}
-    </style>
-
-  </head>
-
-  <body>
-<div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <main role="main" class="inner cover">
-          	<img src="images/avatar.png" alt="Avatar" width="150px;">
-            <h1 class="cover-heading">Sok Kimsoeurn</h1>
-            <blockquote class="blockquote">
-  				<p class="mb-0">If Possible go forward else try again.</p>
-  				<footer class="blockquote-footer">@soeurn<cite title="Source Title">The Coder Studio</cite></footer>
-			</blockquote>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-secondary">Follow Me!</a>
-            </p>
-          </main>
-
-          <footer class="mastfoot">
-            <div class="inner">
-              <p>&copy; 2017 by <a href="#">@soeurn</a></p>
-            </div>
-          </footer>
-
-        </div>
-
-      </div>
-
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="main-title">Curriculum Vitae</h1>
     </div>
+    <div class="row info">
+      <div class="col col-lg-9">
+        <h2 class="name">Mr. SOK KIMSOEURN</h2>
+        Address: #294, Group 20 Koktrob Village,
+        <br> Tamern Commune Thmor Koul District,
+        <br> Battambang Province Cambodia.
+        <br> Tel : 096 410 1207
+        <br> Email: kimsoeurn@gmail.com
+      </div>
+      <div class="col col-lg-3">
+        <img src="images/soeurn.jpg" alt="Sok Kimsoeurn" class="float-right" width="150px" height="150px">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12">
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Personal Data</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title">Sex</td>
+            <td class="sign">:</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td class="title">Date of Birth</td>
+            <td class="sign">:</td>
+            <td>7- May -1991</td>
+          </tr>
+          <tr>
+            <td class="title">Place of Birth</td>
+            <td class="sign">:</td>
+            <td>Battambang Province</td>
+          </tr>
+          <tr>
+            <td class="title">Marital Status</td>
+            <td class="sign">:</td>
+            <td>Single</td>
+          </tr>
+          <tr>
+            <td class="title">Nationality</td>
+            <td class="sign">:</td>
+            <td>Cambodian</td>
+          </tr>
+        </table>
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Education</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title">2014 - 2010</td>
+            <td class="sign">:</td>
+            <td>Graduated Bachelor Degree, Major of Information Technology at Build Bright University</td>
+          </tr>
+          <tr>
+            <td class="title">2010 - 2007</td>
+            <td>:</td>
+            <td>Graduated at Thmor Koul High School.</td>
+          </tr>
+        </table>
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Work Experince</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title">Present</td>
+            <td class="sign">:</td>
+            <td>Freelance Web Developer</td>
+          </tr>
+          <tr>
+            <td class="title">2018 - 2016</td>
+            <td>:</td>
+            <td>
+              Web Developer and Customer Support at
+              <strong>The Coder Studio</strong>
+              startup team base in Battambang province build Web Applicatoins:
+              <ul>
+                <li>Point of Sale</li>
+                <li>Resturant Management System</li>
+                <li>Mini Installment Loan System</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Language</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title">Khmer</td>
+            <td class="sign">:</td>
+            <td>Very Good.</td>
+          </tr>
+          <tr>
+            <td class="title">English</td>
+            <td>:</td>
+            <td>Good.</td>
+          </tr>
+        </table>
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Computer Knowledge</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title">OS</td>
+            <td class="sign">:</td>
+            <td>
+              <ul>
+                <li>Microsoft Window 7,8,10</li>
+                <li>Ubuntu LAMP stack for PHP Web Applications</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="title">Software</td>
+            <td>:</td>
+            <td>
+              <ul>
+                <li>Microsoft Word , Excel and Power Point</li>
+                <li>Adobe Photoshop CS5</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="title">Front-ends</td>
+            <td>:</td>
+            <td>
+              <ul>
+                <li>HTML5 and CSS3</li>
+                <li>Javascript and jQuery</li>
+                <li>Bootstrap 3</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="title">Back-ends</td>
+            <td>:</td>
+            <td>
+              <ul>
+                <li>Object Oriented with PHP and MySQL</li>
+                <li>Laravel 5 MVC Framework</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Interest</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title"></td>
+            <td class="sign">:</td>
+            <td>
+              <ul>
+                <li>Watching videos training</li>
+                <li>Go online, searching about new things</li>
+                <li>Reding the books and play games</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 </html>
