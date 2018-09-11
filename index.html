@@ -5,17 +5,19 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <title>Curriculum Vitae</title>
+  <title>CV - Sok Kimsoeurn</title>
   <style>
     body {
       font-family: 'Lato', sans-serif;
     }
-
+    .container {
+      max-width: 960px !important;
+    }
     .header {
       display: flex;
       margin-bottom: 20px;
@@ -62,12 +64,35 @@
     .sign {
       width: 10%;
     }
+    .bg-primary {
+    background-color: #17a2b8 !important;
+    }
+    .nav-link { color: #ffffff !important;}
+
   </style>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">CV <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cover_letter.html">Cover Letter</a>
+            </li>
+          </ul>
+        </div>
+    </div>      
+  </nav>
   <div class="container">
-    <div class="header">
+    <div class="header" style="padding-top: 30px;">
       <h1 class="main-title">Curriculum Vitae</h1>
     </div>
     <div class="row info">
@@ -76,8 +101,8 @@
         Address: #294, Group 20 Koktrob Village,
         <br> Tamern Commune Thmor Koul District,
         <br> Battambang Province Cambodia.
-        <br> Tel : 096 410 1207
-        <br> Email: kimsoeurn@gmail.com
+        <br> Tel : 096 410 1207 / 092 667 774
+        <br> Email: sokkimsoeurn@gmail.com
       </div>
       <div class="col col-lg-3">
         <img src="images/soeurn.jpg" alt="Sok Kimsoeurn" class="float-right" width="150px" height="150px">
@@ -150,12 +175,11 @@
             <td>:</td>
             <td>
               Web Developer and Customer Support at
-              <strong>The Coder Studio</strong>
+              <strong><a href="https://www.facebook.com/thecoderstudio/" target="_blank">The Coder Studio</a></strong>
               startup team base in Battambang province build Web Applicatoins:
               <ul>
                 <li>Point of Sale</li>
-                <li>Resturant Management System</li>
-                <li>Mini Installment Loan System</li>
+                <li>Restaurant Management System</li>
               </ul>
             </td>
           </tr>
@@ -200,6 +224,7 @@
               <ul>
                 <li>Microsoft Word , Excel and Power Point</li>
                 <li>Adobe Photoshop CS5</li>
+                <li>Git Version Control</li>
               </ul>
             </td>
           </tr>
@@ -209,6 +234,7 @@
             <td>
               <ul>
                 <li>HTML5 and CSS3</li>
+                <li>LESS and SASS CSS Framework</li>
                 <li>Javascript and jQuery</li>
                 <li>Bootstrap 3</li>
               </ul>
@@ -219,7 +245,8 @@
             <td>:</td>
             <td>
               <ul>
-                <li>Object Oriented with PHP and MySQL</li>
+                <li>PHP and MySQL</li>
+                <li>Object-oriented Programming concept </li>
                 <li>Laravel 5 MVC Framework</li>
               </ul>
             </td>
@@ -243,10 +270,37 @@
             </td>
           </tr>
         </table>
+        <table class="table table-borderless">
+          <tr>
+            <th colspan="3">
+              <h3>Reference</h3>
+            </th>
+          </tr>
+          <tr>
+            <td class="title">Vong Tasda</td>
+            <td class="sign">:</td>
+            <td>
+              <ul>
+                <li>Lecture of IT classes at Build Bright University</li>
+                <li>Tel: 0977 222 766 / 010 858 808</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="title">Meach Sopanith</td>
+            <td class="sign">:</td>
+            <td>
+              <ul>
+                <li>Team Leader of The Coder Studio</li>
+                <li>Tel: 098 232 378</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
+    <hr>
   </div>
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
